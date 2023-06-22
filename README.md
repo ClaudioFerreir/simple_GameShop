@@ -1,5 +1,5 @@
 # A Simple Webpage for Game Shop
 ## Part of EBAC Python Web Developer Full Stack
-###Features:
+Resources used:
 - CSS grid;
-- Responsive for laptops and mobiles devices.
+- Media Query with responsives breakpoints for laptops and mobiles devices.
