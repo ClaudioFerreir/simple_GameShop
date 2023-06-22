@@ -11,6 +11,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+  /*Navbar*/
   h1 {
     font-size: 2.5em;
   }
@@ -46,9 +47,46 @@
     cursor: pointer;
   }
 
+  /*about Section*/
+  .about {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+  }
+
+  .about img {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .about-shop h2 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--primary-color);
+    font-style: italic;
+    color: var(--primary-color);
+  }
+
+  .about-shop p {
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 1em;
+  }
+
   @media screen and (min-width: 641px) and (max-width: 1023px) {
     .container {
+      max-height: 600px;
       max-width: 80%;
+    }
+
+    .about {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    /*about section*/
+    .about img {
+      width: 100%;
     }
   }
 
@@ -60,6 +98,16 @@
     .nav-content ul{
       display: block;
       gap: 0;
+    }
+    
+    /*about section*/
+    .about {
+      display: block;
+    }
+
+    .about img {
+      width: 100%;
+      height: 400px;
     }
 
   }
