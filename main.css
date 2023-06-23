@@ -83,10 +83,15 @@ h2 {
 #products {
   margin-bottom: 3em;
 }
+
+.product {
+  position: relative;
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1em 2em;
+  gap: 2em 2em;
 }
 
 .product img {
@@ -106,6 +111,30 @@ h2 {
   font-size: 0.9em;
   color: var(--white-color);
 }
+
+.product p:nth-child(4) {
+  margin-bottom: 2em;
+}
+
+.product button {
+  border: none;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  width: 100%;
+  padding: 0.3em 0.5em;
+  margin-top: 0.5em;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+.product button:hover {
+  background-color: #4d4df7;
+}
+
 
 /*footer*/
 footer {
