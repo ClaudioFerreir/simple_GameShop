@@ -17,7 +17,7 @@ body {
 
 /*Navbar*/
 h1 {
-  font-size: 2.5em;
+  font-size: 2.0em;
 }
 
 nav {
@@ -172,9 +172,17 @@ footer {
     max-width: 80%;
   }
 
+  h1 {
+    font-size: 1.8em;
+  }
+
   .nav-content ul{
     display: block;
     gap: 0;
+  }
+
+  .nav-content ul li a{
+    font-size: 1em;
   }
   
   /*about section*/
